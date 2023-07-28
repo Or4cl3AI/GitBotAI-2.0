@@ -1,0 +1,42 @@
+/* frontend/styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+#chatbotIframe {
+    border: none;
+    height: 600px;
+    width: 400px;
+    margin: 20px auto;
+    display: block;
+}
+
+#actionButton {
+    display: block;
+    width: 200px;
+    height: 45px;
+    margin: 20px auto;
+    background-color: #3498db;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    line-height: 45px;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+
+#actionButton:hover {
+    background-color: #2980b9;
+}
