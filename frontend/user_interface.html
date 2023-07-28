@@ -1,0 +1,24 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GitBotAI 2.0</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="app">
+        <h1>Welcome to GitBotAI 2.0</h1>
+        <div id="chatbotIframe">
+            <iframe src="https://ora.ai/embed/2016a484-b6bd-446f-9061-16fc900331b5" height="600px" width="400px"></iframe>
+        </div>
+        <div id="actions">
+            <button id="actionButton" onclick="sendRequest('generateCode')">Generate Code</button>
+            <button id="actionButton" onclick="sendRequest('manageRepo')">Manage Repository</button>
+        </div>
+    </div>
+    <script src="frontend_backend_communication.js"></script>
+</body>
+</html>
+```
