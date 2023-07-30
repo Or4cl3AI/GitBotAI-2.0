@@ -68,7 +68,7 @@ To register and release GitBotAI as a GitHub app, follow these steps:
 
 3. **Configure permissions and repository access**: In your app's settings page, go to the "Permissions & webhooks" section. Set the necessary permissions for your app and specify which repositories your app can access.
 
-4. **Install the app on a repository**: Use the `user_installation.py` script to install GitBotAI on a repository. You can find this script in the `workflow` directory of this repository.
+4. **Install the app on a repository**: Use the `user_installation.py` script to install GitBotAI on a repository. You can find this script in the `workflow` directory of this repository. Before running the script, ensure you have Python installed and all necessary dependencies. The script takes two arguments: the name of the GitHub app and the name of the repository where you want to install the app.
 
 5. **Release the app**: Go to your app's repository on GitHub, click "Releases", then "Draft a new release". Enter a tag version, release title, and description, then click "Publish release".
 
