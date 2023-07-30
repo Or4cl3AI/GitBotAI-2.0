@@ -57,3 +57,19 @@ The backend server sends the results and responses back to the frontend, where t
 ## Conclusion
 
 GitBotAI is a comprehensive and powerful web app that empowers developers with an intuitive conversational AI chatbot and advanced GitHub integration. With its seamless frontend-backend communication and secure GitHub API interactions, GitBotAI is a valuable assistant for developers, enhancing productivity and simplifying various GitHub-related tasks. Whether working on individual projects or collaborating in a team, GitBotAI is designed to be a reliable and indispensable companion for developers worldwide.
+
+## Registering and Releasing as a GitHub App
+
+To register and release GitBotAI as a GitHub app, follow these steps:
+
+1. **Register a new GitHub app**: Go to GitHub's [New OAuth App](https://github.com/settings/applications/new) page, fill out the form, and click "Register application". For the "Authorization callback URL", enter the URL where your app is hosted.
+
+2. **Set up a webhook for events**: In your app's settings page, go to the "Webhooks" section and click "Add webhook". Enter your app's URL in the "Payload URL" field, select "application/json" for the "Content type", and set the "Secret" to a secure random string.
+
+3. **Configure permissions and repository access**: In your app's settings page, go to the "Permissions & webhooks" section. Set the necessary permissions for your app and specify which repositories your app can access.
+
+4. **Install the app on a repository**: Use the `user_installation.py` script to install GitBotAI on a repository. You can find this script in the `workflow` directory of this repository. Before running the script, ensure you have Python installed and all necessary dependencies. The script takes two arguments: the name of the GitHub app and the name of the repository where you want to install the app.
+
+5. **Release the app**: Go to your app's repository on GitHub, click "Releases", then "Draft a new release". Enter a tag version, release title, and description, then click "Publish release".
+
+For more information, refer to GitHub's [Creating a GitHub App](https://docs.github.com/en/developers/apps/creating-a-github-app) documentation.
