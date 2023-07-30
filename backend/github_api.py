@@ -1,4 +1,3 @@
-```python
 import requests
 from flask import jsonify
 from marshmallow import Schema, fields
@@ -44,4 +43,3 @@ class GitHubAPI:
     def delete_repo(self, owner, repo):
         response = requests.delete(f"{self.BASE_URL}/repos/{owner}/{repo}", headers=self.headers)
         return response.status_code == 204
-```
