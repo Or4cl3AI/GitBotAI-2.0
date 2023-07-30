@@ -1,4 +1,3 @@
-```python
 import requests
 from github import Github
 
@@ -35,4 +34,3 @@ def install_gitbotai(user_token, repo_name):
 
     except Exception as e:
         print(f'An error occurred: {str(e)}')
-```
