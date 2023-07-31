@@ -13,12 +13,24 @@ body {
     overflow: hidden;
 }
 
+.container.floating-widget {
+    position: fixed;
+    z-index: 9999;
+    /* Add any other necessary styles */
+}
+
 #chatbotIframe {
     border: none;
     height: 600px;
     width: 400px;
     margin: 20px auto;
     display: block;
+}
+
+.floating-widget {
+    height: 100%;
+    width: 100%;
+    /* Add any other necessary styles */
 }
 
 #actionButton {
