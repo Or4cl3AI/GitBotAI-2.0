@@ -19,7 +19,7 @@ class GitHubAPI:
 
     def __init__(self, access_token):
         self.headers = {
-            "Authorization": f"Bearer {access_token}",
+    "Authorization": f"Bearer {os.environ.get('GITHUB_ACCESS_TOKEN')}",
             "Accept": "application/vnd.github.v3+json"
         }
 
