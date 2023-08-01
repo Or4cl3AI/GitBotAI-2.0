@@ -2,9 +2,7 @@ import requests
 from github import Github
 
 def install_gitbotai(user_token, repo_name):
-    """
-    Function to install GitBotAI as a GitHub app on user's repositories.
-    """
+    """Function to install GitBotAI as a GitHub app on user's repositories."""
     # Initialize a Github instance with user's token
     g = Github(user_token)
 
