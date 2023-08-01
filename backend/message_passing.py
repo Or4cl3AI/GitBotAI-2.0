@@ -3,7 +3,9 @@ from flask import request, jsonify
 
 serverUrl = "http://localhost:5000"
 
-def sendRequest(endpoint, method="GET", data={}):
+def sendRequest(endpoint, method="GET", data=None):
+    if data is None:
+        data = {}
     url = f"{serverUrl}/{endpoint}"
     if method == "GET":
         response = requests.get(url, params=data)
