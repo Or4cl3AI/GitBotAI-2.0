@@ -1,4 +1,3 @@
-```python
 import requests
 from flask import request, jsonify
 
@@ -33,4 +32,3 @@ def handle_message():
         response = {"error": "Invalid action"}
 
     return jsonify(response)
-```
