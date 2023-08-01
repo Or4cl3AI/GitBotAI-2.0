@@ -1,3 +1,4 @@
+import os
 import requests
 from flask import jsonify
 from marshmallow import Schema, fields
@@ -14,32 +15,27 @@ class RepoSchema(Schema):
     owner = fields.Nested(UserSchema, required=True)
 
 # Define the GitHub API class
-class GitHubAPI:
+class GithubAPI:
     BASE_URL = "https://api.github.com"
 
     def __init__(self, access_token):
         self.headers = {
-    "Authorization": f"Bearer {os.environ.get('GITHUB_ACCESS_TOKEN')}",
+            "Authorization": f"Bearer {os.environ.get('GITHUB_ACCESS_TOKEN')}",
             "Accept": "application/vnd.github.v3+json"
         }
 
-    def get_user(self, username):
-        response = requests.get(f"{self.BASE_URL}/users/{username}", headers=self.headers)
-        return UserSchema().load(response.json())
+    def generate_code(self, data):
+        # Add implementation details for generate_code method
+        pass
 
-    def get_repo(self, owner, repo):
-        response = requests.get(f"{self.BASE_URL}/repos/{owner}/{repo}", headers=self.headers)
-        return RepoSchema().load(response.json())
+    def manage_repo(self, data):
+        # Add implementation details for manage_repo method
+        pass
 
-    def create_repo(self, name, description="", private=False):
-        data = {
-            "name": name,
-            "description": description,
-            "private": private
-        }
-        response = requests.post(f"{self.BASE_URL}/user/repos", headers=self.headers, json=data)
-        return RepoSchema().load(response.json())
+    def version_control(self, data):
+        # Add implementation details for version_control method
+        pass
 
-    def delete_repo(self, owner, repo):
-        response = requests.delete(f"{self.BASE_URL}/repos/{owner}/{repo}", headers=self.headers)
-        return response.status_code == 204
+    def authenticate(self, data):
+        # Add implementation details for authenticate method
+        pass
