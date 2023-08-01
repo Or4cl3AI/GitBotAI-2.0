@@ -1,6 +1,4 @@
 import os
-import requests
-from flask import jsonify
 from marshmallow import Schema, fields
 
 # Define the data schemas
