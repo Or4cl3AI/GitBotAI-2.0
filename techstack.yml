@@ -1,0 +1,265 @@
+repo_name: Or4cl3AI/GitBotAI-2.0
+report_id: 17b4df83c58fdeb183e1c59b9a43d23b
+version: 0.1
+repo_type: Public
+timestamp: '2024-01-05T08:34:32+00:00'
+requested_by: Or4cl3AI
+provider: github
+branch: main
+detected_tools_count: 21
+tools:
+- name: C lang
+  description: One of the most widely used programming languages of all time
+  website_url: http://en.wikipedia.org/wiki/C_(programming_language)
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/no-img-open-source.png
+  detection_source_url: https://github.com/Or4cl3AI/GitBotAI-2.0
+  detection_source: Repo Metadata
+- name: C++
+  description: Has imperative, object-oriented and generic programming features, while
+    also providing the facilities for low level memory manipulation
+  website_url: http://www.cplusplus.com/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1049/cplusplus.png
+  detection_source_url: https://github.com/Or4cl3AI/GitBotAI-2.0
+  detection_source: Repo Metadata
+- name: CSS 3
+  description: The latest evolution of the Cascading Style Sheets language
+  website_url: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/6727/css.png
+  detection_source_url: https://github.com/Or4cl3AI/GitBotAI-2.0
+  detection_source: Repo Metadata
+- name: Fortran
+  description: High-performance parallel programming language
+  website_url: https://fortran-lang.org/en/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/11029/default_075c8240ce6c7ac3a8db41abef5c68eb84207f99.png
+  detection_source_url: https://github.com/Or4cl3AI/GitBotAI-2.0
+  detection_source: Repo Metadata
+- name: Python
+  description: A clear and powerful object-oriented programming language, comparable
+    to Perl, Ruby, Scheme, or Java.
+  website_url: https://www.python.org
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/993/pUBY5pVj.png
+  detection_source_url: https://github.com/Or4cl3AI/GitBotAI-2.0
+  detection_source: Repo Metadata
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/Or4cl3AI/GitBotAI-2.0
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/Or4cl3AI/GitBotAI-2.0/blob/main/.github/workflows/jekyll-gh-pages.yml
+  detection_source: ".github/workflows/jekyll-gh-pages.yml"
+  last_updated_by: Dustin Groves
+  last_updated_on: 2023-07-30 23:35:45.000000000 Z
+- name: Nix
+  description: 'A package manager for Linux and other Unix systems '
+  website_url: http://nixos.org/nix
+  license: LGPL-2.1
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/service/4348/ET9J1uY-_400x400.png
+  detection_source_url: https://github.com/Or4cl3AI/GitBotAI-2.0
+  detection_source: Repo Metadata
+- name: PyPI
+  description: A repository of software for the Python programming language
+  website_url: https://pypi.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Hosted Package Repository
+  image_url: https://img.stackshare.io/service/12572/-RIWgodF_400x400.jpg
+  detection_source_url: https://github.com/Or4cl3AI/GitBotAI-2.0/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: e2b-for-github[bot]
+  last_updated_on: 2023-07-28 07:51:46.000000000 Z
+- name: HTML
+  description: Hypertext Markup Language for creating web pages.
+  website_url: http://
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/2270/no-img-open-source.png
+  detection_source_url: https://github.com/Or4cl3AI/GitBotAI-2.0/blob/main/frontend/conversational_interface.html
+  detection_source: frontend/conversational_interface.html
+  last_updated_by: e2b-for-github[bot]
+  last_updated_on: 2023-07-28 07:51:46.000000000 Z
+- name: PowerShell
+  description: A task automation and configuration management framework
+  website_url: https://docs.microsoft.com/en-us/powershell/
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/3681/powershell-logo.png
+  detection_source_url: https://github.com/Or4cl3AI/GitBotAI-2.0
+  detection_source: Repo Metadata
+- name: Shell
+  description: A shell is a text-based terminal, used for manipulating programs and
+    files. Shell scripts typically manage program execution.
+  website_url: https://en.wikipedia.org/wiki/Shell_script
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/Or4cl3AI/GitBotAI-2.0
+  detection_source: Repo Metadata
+- name: Flask
+  description: A simple framework for building complex web applications
+  package_url: https://pypi.org/project/Flask
+  version: 2.3.2
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19834/default_58dbe7b4d7ec447b62773209af0f9a31bbabf5bd.png
+  detection_source_url: https://github.com/Or4cl3AI/GitBotAI-2.0/blob/main/pyproject.toml
+  detection_source: pyproject.toml
+  last_updated_by: Or4cl3AI
+  last_updated_on: 2023-08-07 03:06:21.000000000 Z
+- name: Flask-Cors
+  description: A Flask extension adding a decorator for CORS support
+  package_url: https://pypi.org/project/Flask-Cors
+  version: 4.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19977/default_29192d68c64b1a3be468b1b73c2a129fc390c4f4.png
+  detection_source_url: https://github.com/Or4cl3AI/GitBotAI-2.0/blob/main/pyproject.toml
+  detection_source: pyproject.toml
+  last_updated_by: Or4cl3AI
+  last_updated_on: 2023-08-07 03:06:21.000000000 Z
+- name: PyGithub
+  description: Use the full Github API v3
+  package_url: https://pypi.org/project/PyGithub
+  version: 1.59.1
+  license: LGPL-3.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19957/default_f0290ff2792e2af7d13f5c82ed82206842ec288d.png
+  detection_source_url: https://github.com/Or4cl3AI/GitBotAI-2.0/blob/main/pyproject.toml
+  detection_source: pyproject.toml
+  last_updated_by: Or4cl3AI
+  last_updated_on: 2023-08-07 03:06:21.000000000 Z
+- name: gunicorn
+  description: WSGI HTTP Server for UNIX
+  package_url: https://pypi.org/project/gunicorn
+  version: 20.0.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19931/default_74a0c20721d3a0a1484d69586401591fe8993db2.png
+  detection_source_url: https://github.com/Or4cl3AI/GitBotAI-2.0/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: e2b-for-github[bot]
+  last_updated_on: 2023-07-28 07:51:46.000000000 Z
+- name: marshmallow
+  description: A lightweight library for converting complex datatypes to and from
+    native Python datatypes
+  package_url: https://pypi.org/project/marshmallow
+  version: 3.20.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19893/default_f716e4bc541a9eb6e3f5b7a20d7c35355075b0b4.png
+  detection_source_url: https://github.com/Or4cl3AI/GitBotAI-2.0/blob/main/poetry.lock
+  detection_source: pyproject.toml
+  last_updated_by: Or4cl3AI
+  last_updated_on: 2023-08-07 03:06:21.000000000 Z
+- name: oauthlib
+  description: A generic
+  package_url: https://pypi.org/project/oauthlib
+  version: 3.1.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20048/default_d9e0956c82c17d568b62f3b0d5e2080c1e501e59.png
+  detection_source_url: https://github.com/Or4cl3AI/GitBotAI-2.0/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: e2b-for-github[bot]
+  last_updated_on: 2023-07-28 07:51:46.000000000 Z
+- name: python-dotenv
+  description: Add .env support to your django/flask apps in development and deployments
+  package_url: https://pypi.org/project/python-dotenv
+  version: 0.14.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20095/default_3141eabecdd8efa55de73a33c43f2ac0d5bbf954.png
+  detection_source_url: https://github.com/Or4cl3AI/GitBotAI-2.0/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: e2b-for-github[bot]
+  last_updated_on: 2023-07-28 07:51:46.000000000 Z
+- name: requests
+  description: Python HTTP for Humans
+  package_url: https://pypi.org/project/requests
+  version: 2.31.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19826/default_d7c684bf2673f008a9f02ac93901229297a22d7e.png
+  detection_source_url: https://github.com/Or4cl3AI/GitBotAI-2.0/blob/main/poetry.lock
+  detection_source: pyproject.toml
+  last_updated_by: Or4cl3AI
+  last_updated_on: 2023-08-07 03:06:21.000000000 Z
+- name: requests-oauthlib
+  description: OAuthlib authentication support for Requests
+  package_url: https://pypi.org/project/requests-oauthlib
+  version: 1.3.0
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19926/default_bb29140b72c0fb9789e567bba0ef0ffadeaef5d4.png
+  detection_source_url: https://github.com/Or4cl3AI/GitBotAI-2.0/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: e2b-for-github[bot]
+  last_updated_on: 2023-07-28 07:51:46.000000000 Z
