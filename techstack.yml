@@ -2,7 +2,7 @@ repo_name: Or4cl3AI/GitBotAI-2.0
 report_id: 17b4df83c58fdeb183e1c59b9a43d23b
 version: 0.1
 repo_type: Public
-timestamp: '2024-01-05T08:34:32+00:00'
+timestamp: '2024-02-29T18:53:45+00:00'
 requested_by: Or4cl3AI
 provider: github
 branch: main
@@ -83,7 +83,7 @@ tools:
   last_updated_by: Dustin Groves
   last_updated_on: 2023-07-30 23:35:45.000000000 Z
 - name: Nix
-  description: 'A package manager for Linux and other Unix systems '
+  description: A package manager for Linux and other Unix systems
   website_url: http://nixos.org/nix
   license: LGPL-2.1
   open_source: true
